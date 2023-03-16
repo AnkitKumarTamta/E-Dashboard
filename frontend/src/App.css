@@ -1,0 +1,219 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@200&display=swap');
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0px;
+  background-color: darkturquoise;
+}
+
+.nav-ul li a{
+  color: whitesmoke;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  background-color: darkturquoise;
+  padding: 5px;
+  width: 100%;
+  color: whitesmoke;
+}
+
+.register, .product{
+  margin-left: 30%;
+}
+
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+.alignRignt{
+  text-align: right;
+}
+
+.inputbox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid darkturquoise;
+}
+.appButton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: darkturquoise;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.logo{
+  float: left;
+  text-align: center;
+  font-weight: bolder;
+  color: whitesmoke;
+  display: block;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 18px;
+  margin-top: 13px;
+}
+
+.fielderr{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+
+.tabled{
+  margin-left: 27%;
+  padding: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.tabled th,td{
+  border: 2px solid darkcyan;
+  padding: 5px;
+  width: 130px;
+  
+}
+
+.tabled td{
+  font-weight: bold;
+}
+
+.tabled th{
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+
+
+.searchinput{
+  margin-left: 42%;
+  margin-bottom: 15px;
+  padding: 7px;
+  width: 230px;
+}
+
+.twobutton{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+}
+
+.appButton{
+  color: whitesmoke;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.twobutton .linkw{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+@media screen and (max-width: 745px) {
+  .twobutton button{
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .twobutton{
+    width: 140px;
+  }
+
+  .tabled{
+    margin-left: 14%;
+    margin-right: 20px;
+    
+  }
+
+  .searchinput{
+    margin-left: 35%;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 140px;
+  }
+
+  .nav-ul li{
+    display: block;
+    
+    
+  }
+ 
+
+
+  .product input{
+    width: 240px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+  }
+
+  .register input{
+    width: 220px;
+    margin-left: 22px;
+  }
+
+  .login input{
+    width: 220px;
+    margin-left: 22px;
+  }
+  
+  
+}
+
+
+
+
+
